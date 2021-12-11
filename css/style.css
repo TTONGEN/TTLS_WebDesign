@@ -1,0 +1,1169 @@
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  background-color: #f6ece3;
+
+}
+
+/* __________________________________________________________________________Navigation Bar_________________________________________________________________________________________________ */
+/* longnav */
+.long-navbar {
+  display: none;
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+  .long-navbar {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .long-navbar {
+    display: block;
+  }
+}
+
+body {
+  background-color: #F6ECE3;
+}
+
+.navbar {
+  background-color: #F6ECE3;
+}
+
+.navbar-light .navbar-brand {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.nav-item {
+  font-size: 16px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #FFCB4F;
+  font-family: 'Maven Pro', sans-serif;
+  color: #3B3D3E;
+  border-radius: 0 0 50px 50px;
+}
+
+.nav-link {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.nav-pills {
+  margin-top: -43px;
+}
+
+/* shortnav */
+.short-navbar {
+  display: none;
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+  .short-navbar {
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .short-navbar {
+    display: none;
+  }
+}
+
+.navbar {
+  background-color: #F6ECE3;
+}
+
+.navbar-light .navbar-nav {
+  color: #3B3D3E;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #8B8B8B;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #383D3E;
+  font-weight: 600;
+}
+
+/* __________________________________________________________________________Welcome page___________________________________________________________________________________________________ */
+
+
+.vets
+{ font-family: 'Maven Pro', sans-serif;  font-size: 6vw; font-weight: bold;  font-style: normal;  line-height: 103px;
+
+      margin-top: 80px;  margin-left: 40px;  display: flex;  align-items: center; width: 1200px ;  height: 0px;  text-align: center;  color: #ffcb4f;
+}
+
+.middle-welcome
+{
+   margin-top: 25px; width: 1400px;  height: 0px;
+}
+
+.slogon
+{ font-family: 'Maven Pro', sans-serif;  font-size: 3vw;  font-weight: bold;  font-style: normal;  line-height: 42px;
+
+      margin-top: 60vw; margin-left: 85px;  display: flex;  align-items: center;  width: 600px;  height: 0px;  text-align: center;  color: #ffcb4f;
+}
+
+.welcome_borderbox
+{
+    margin-top: -750px;  margin-left: -100px;  box-sizing: border-box;
+ width: 95vw;  height: 40vw;  border: 3px solid #fff;
+}
+
+/* __________________________________________________________________________Selection page_________________________________________________________________________________________________ */
+.first_topic {
+  font-weight: bold;
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  padding-bottom: 4.5rem;
+}
+
+.sec_topic {
+  font-weight: bold;
+  text-align: right;
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  padding-bottom: 4.5rem;
+}
+
+.selectionpage {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #f6ece3;
+  overflow: hidden;
+}
+
+.selection_container {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  margin-left: -15px;
+  left: 5%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+  border-radius: 25px;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+  border-radius: 25px;
+}
+
+.img_selection {
+  width: 300px;
+  height: 500px;
+  left: 0;
+}
+
+.title {
+  position: absolute;
+  width: 250px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFCB4F;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.container:hover .title {
+  top: 90px;
+}
+
+.button {
+  position: absolute;
+  width: 250px;
+  left: 0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  ;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+
+/* __________________________________________________________________________Service page___________________________________________________________________________________________________ */
+/* Carousel */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 45rem;
+}
+
+.carousel-item>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+
+.whichservice {
+  display: block;
+  font-size: 4vw;
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Topic */
+.ourservicepage {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10vw;
+}
+
+.servicepage {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -4vw;
+}
+
+/* Service button */
+.allbuttons{
+  margin-top: 10vw;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.3;
+}
+
+/* Hide smallsercivebtn when screen small than 320px, show when is wider than 320px*/
+.goodbye-smallservicebtn {
+  display: none;
+}
+
+
+@media (min-width: 375px) and (max-width: 812px) {
+  .goodbye-smallservicebtn {
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .goodbye-smallservicebtn {
+    display: none;
+  }
+}
+
+/* Show goodbye-bigservicebtn  when screen small than 320px, hide when is wider than 320px*/
+.goodbye-bigservicebtn {
+  display: none;
+}
+
+
+@media (min-width: 375px) and (max-width: 812px) {
+  .goodbye-bigservicebtn  {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .goodbye-bigservicebtn {
+    display: block;
+  }
+}
+
+/* Footer */
+.footerBackground-Row1 {
+    background-color: #FFEAB8;
+
+  }
+
+
+.contact_btn
+{ font-family: 'Maven Pro', sans-serif;  font-size: 24px;  font-weight: 900;  font-style: normal;  line-height: 21px;
+
+   border-width: 0px ; width: 338px;  height: 55px;  letter-spacing: .1px;  color: #636363;
+}
+
+.footercontain{
+  font-size: 1rem;
+  width: 350px;
+}
+.footercontain2{
+  font-size: 1rem;
+  width: 300px;
+}
+
+.branch{
+  font-size: 13px;
+}
+
+
+/*----------------------------Surgery Procedures----------------------------*/
+/* Topic */
+.ourservice {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 22px;
+}
+
+.service {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -3vw;
+}
+
+.borderbg {
+  background-color: #F3E3D7;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.icon_surgery{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.dogtypo{
+  color: #F3E3D7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 15vw;
+  letter-spacing: -1.5px;
+}
+
+.dogdetail_1{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+  color: #000000;
+}
+
+.dogdetail_2{
+font-family: 'Maven Pro', sans-serif;
+font-size: 3vw;
+font-weight: 500;
+color: #636363;
+}
+
+.dogdetail_3{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 2vw;
+  font-weight: 900;
+  color: #8B8B8B;
+}
+
+.cattypo{
+  color: #F3E3D7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 15vw;
+  letter-spacing: -1.5px;
+}
+
+.catdetail_1{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+  color: #000000;
+}
+
+.catdetail_2{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+  color: #636363;
+}
+
+.catdetail_3{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 2vw;
+  font-weight: 900;
+  color: #8B8B8B;
+}
+
+.backbutton {
+  max-width: 25vw;
+  max-height: 3vw;
+  margin-left: 58vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+.btn-warning {
+  color: #3b3d3e;
+  background-color: #ffeab8;
+  border-color: #ffcb4f;
+  font-size: 2vw;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border-width: 0.3vw;
+  padding-top: 0.2vw;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+/*-----------------------Microchipping--------------------------*/
+.icon_microchipping{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+/*-----------------------Pet--------------------------*/
+.icon_pet{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+/*-----------------------Basic--------------------------*/
+.icon_basic{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.rabbittypo{
+  color: #F3E3D7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 10vw;
+  letter-spacing: -1.5px;
+}
+
+/*-----------------------Vaccinations--------------------------*/
+.icon_vaccinations{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+/*-----------------------Dental Care--------------------------*/
+.icon_dental{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.hedgehogtypo{
+  color: #F3E3D7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 14vw;
+  letter-spacing: -1.5px;
+}
+
+/*-----------------------Wellness Examination--------------------------*/
+.icon_wellness{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+
+/* __________________________________________________________________________About us page___________________________________________________________________________________________________ */
+
+.store_picture
+{ border-radius: 20px;
+}
+
+
+.aboutclinic
+{font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 8vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+
+}
+.introduction
+{ font-family: 'Maven Pro', sans-serif;  font-size: 2vw;  font-weight: 500;  font-style: normal;  line-height: 50px;
+
+  letter-spacing: .1px;  color: #000;
+}
+
+
+.ourteam
+{font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 40px;
+
+}
+
+.veterinarysurgeon
+{ color: #3B3D3E;
+  margin-left: 10px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -4vw;
+  margin-bottom: 60px;
+}
+
+.ourteam2
+{font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 40px;
+}
+
+.veterinarysurgeonassistant
+{ color: #3B3D3E;
+  margin-left: 10px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -4vw;
+  margin-bottom: 60px;
+}
+
+
+/* __________________________________________________________________________Review CSS_________________________________________________________________________________________________ */
+
+.REVIEW {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.ourpatientsay {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -4vw;
+}
+
+/* review- row */
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.75rem 1rem;
+}
+
+.card-name-text {
+  display: flex;
+  justify-content: center;
+  font-family: Maven Pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.15vw;
+  line-height: 0.5vw;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #3B3D3E;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  font-family: Maven Pro, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.8vw;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #3B3D3E;
+}
+
+.star {
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  background: #F3E3D7;
+  border: 3px solid #FFCB4F;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+}
+
+.pic-01 {
+  border-radius: 50%;
+  box-shadow: 1px -4px 6px 0px rgb(0 0 0 / 50%);
+}
+
+.rounded {
+    border-radius: 2.25rem!important;
+}
+
+.star2 {
+  margin-top: 0.28rem;
+}
+
+/* --------------------------------------------------------------------  comment system  --------------------------------------------------------------------------- */
+
+.user-name{
+  font-family: Maven Pro, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #3B3D3E;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 7vw;
+}
+
+.form-contol-lg {
+  border-radius: 0.25rem;
+  padding: 1.5rem 1rem;
+  font-size: 1.5vw;
+}
+
+.form-control {
+  color: #3B3D3E;
+  border: transparent;
+  padding: 1rem 1rem;
+  font-size: 2vw;
+}
+
+/* __________________________________________________________________________form page___________________________________________________________________________________________________ */
+
+/* Content 2- Topic Owner New Patient Form*/
+.openingtime {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.eachandevery {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -4vw;
+}
+
+/* Content 3-Owner Form*/
+.wrapper {
+  max-width: 800px;
+  width: 100%;
+  height: 70rem;
+  background: #f6ece3;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 40px #F3E3D7,
+    inset 0 0 0 0;
+}
+
+.wrapper .form {
+  width: 100%;
+}
+
+.wrapper .form .forminputfield {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .form .forminputfield label {
+  width: 200px;
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.wrapper .form .forminputfield .input,
+.wrapper .form .forminputfield .textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .forminputfield .textarea {
+  width: 100%;
+  height: 125px;
+  resize: none;
+}
+
+.wrapper .form .forminputfield .input:focus,
+.wrapper .form .forminputfield .textarea:focus {
+  border: 1px solid #fec107;
+}
+
+.wrapper .form .forminputfield p {
+  font-size: 14px;
+  color: #757575;
+}
+
+.wrapper .form .forminputfield .next_btn {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0px;
+  background: #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapper .form .forminputfield .btn:hover {
+  background: #ffd658;
+}
+
+.wrapper .form .forminputfield:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .form .forminputfield {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wrapper .form .forminputfield label {
+    margin-bottom: 5px;
+  }
+
+  /* Selection Page */
+  .first_topic {
+    font-weight: bold;
+    color: #3B3D3E;
+    font-family: 'Maven Pro', sans-serif;
+    padding-bottom: 4.5rem;
+  }
+
+  .sec_topic {
+    font-weight: bold;
+    text-align: right;
+    color: #3B3D3E;
+    font-family: 'Maven Pro', sans-serif;
+    padding-bottom: 4.5rem;
+  }
+
+  .selectionpage {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f6ece3;
+    overflow: hidden;
+  }
+
+  .selection_container {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: -15px;
+    left: 5%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+    border-radius: 25px;
+  }
+
+  .container:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 25px;
+  }
+
+  .img_selection {
+    width: 300px;
+    height: 500px;
+    left: 0;
+  }
+
+  .title {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    top: 120px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFCB4F;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+
+  .container:hover .title {
+    top: 90px;
+  }
+
+  .button {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    ;
+  }
+
+  .button a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+
+  .container:hover .button {
+    opacity: 1;
+  }
+
+
+/* __________________________________________________________________________success page___________________________________________________________________________________________________ */
+
+.congratulations
+{ font-family: 'Maven Pro', sans-serif;  font-size: 7vw;  font-weight: 900;
+
+  margin-left: 35px; text-align: center; display: flex;  align-items: flex-end;
+ width: 500px;  height: 154px;  letter-spacing: -1.5px;  color: #ffcb4f;
+}
+
+
+.success_register
+{ font-family: 'Maven Pro', sans-serif;  font-size:5vw;  font-weight: 900;
+
+margin-top: 60px; margin-left: 35px;text-align: center; display: flex;  align-items: flex-end;
+ width: 1300px;  height: 50px;  letter-spacing: -1.5px;  color: #ffcb4f;
+}
+
+.contact_btn2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 4vw;  font-weight: 900;  font-style: normal;  line-height: 21px;
+ border-width: 0px; margin-top: 20px;  margin-left: 14px;  width: 80vw;  height: 5vw;  letter-spacing: .1px;  color: #636363;
+}
+
+.img{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+/* __________________________________________________________________________Contact CSS_________________________________________________________________________________________________ */
+.openingtime {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.eachandevery {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -4vw;
+}
+
+.responsive-1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.closetime {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.9vw;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  align-items: flex-end;
+}
+
+.responsive-2 {
+  max-width: 100%;
+  height: auto;
+}
+
+.opendate {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3vw;
+  font-weight: 400;
+}
+
+.opentime {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 2vw;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.part1 {
+  margin-top: 4rem;
+}
+
+.timetable {
+  margin-top: 4rem;
+}
+
+.contactus {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.messageus {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 3vw;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -4vw;
+}
+
+.responsive-3 {
+  max-width: 100%;
+  height: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 7vw;
+}
+
+.form-contol-lg {
+  border-radius: 0.25rem;
+  padding: 1.5rem 1rem;
+  font-size: 2vw;
+}
+
+.form-control {
+  color: #3B3D3E;
+  border: transparent;
+  padding: 1rem 1rem;
+  font-size: 2vw;
+}
+
+.mb-3 {
+  margin-top: 2rem;
+}
+
+.Submitbutton {
+  max-width: 25vw;
+  max-height: 3vw;
+  margin-left: 0vw;
+}
+
+.btn-warning {
+  color: #3b3d3e;
+  background-color: #ffeab8;
+  border-color: #ffcb4f;
+  font-size: 2vw;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border-width: 0.3vw;
+  padding-top: 0.2vw;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+/* __________________________________________________________________________Contact CSS_________________________________________________________________________________________________ */
+
+.footerBackground-Row1 {
+    background-color: #FFEAB8;
+
+  }
+
+
+.contact_btn
+{ font-family: 'Maven Pro', sans-serif;  font-size: 24px;  font-weight: 900;  font-style: normal;  line-height: 21px;
+
+   border-width: 0px ; width: 338px;  height: 55px;  letter-spacing: .1px;  color: #636363;
+}
+
+.footercontain{
+  font-size: 1rem;
+  width: 350px;
+}
+.footercontain2{
+  font-size: 1rem;
+  width: 300px;
+}
+
+.branch{
+  font-size: 13px;
+}
